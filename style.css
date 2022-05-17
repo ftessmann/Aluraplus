@@ -1,0 +1,152 @@
+:root {
+    --brancoPrincipal: #FFFFFF;
+    --cinzaSecundario: #C0C0C0;
+    --botaoAzul: #167BF7;
+    --corDeFundo: #00030C;
+    --fontePrincipal: "Inter";
+}
+body {
+    background-color: var(--corDeFundo);
+    color: var(--brancoPrincipal);
+    font-family: var(--fontePrincipal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.principal {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+.container__titulo {
+    font-size: 28px;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.containerImagem {
+    margin: 1em 0 2em 0;
+    
+}
+.container__botao {
+    display: block;
+    text-decoration: none;
+    background-color: var(--botaoAzul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--brancoPrincipal);
+    margin-bottom: 1em;
+
+}
+
+.botaoSecundario {
+    background-color: transparent;
+    border: 2px solid var(--brancoPrincipal);
+
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinzaSecundario);
+}
+
+.containerCaixa {
+    margin: 0 6em;
+}
+
+.secundario {
+    align-items: center;
+}
+
+.secundarioImagem {
+    width: 80%;
+    margin: 0 6em;
+}
+
+.descricaoTitulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--brancoPrincipal);
+    margin-bottom: 0.2em;
+
+}
+
+.descricaoTexto {
+    color: var(--cinzaSecundario);
+}
+
+.botaoSecundario {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.secundarioDescricao {
+    padding: 6em;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivosTitulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--brancoPrincipal);
+}
+
+.dispositivosLista {
+    display: flex;
+    justify-content: center;
+    margin: 5em;
+    list-style-type: none;
+}
+
+.listaItem {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--brancoPrincipal);
+}
+
+.rodape {
+    text-align: center;
+}
+
+.imagemFooter {
+    display: inline;
+    margin-bottom: 1.5em;
+
+}
+
+.listaLink {
+    display: inline-block;
+}
+
+.listaLink a {
+    font-size: 16px;
+    margin: 1em 1em 1em 1em;
+    text-decoration: none;
+    color: var(--brancoPrincipal);
+    
+}
+
+.footerTexto {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinzaSecundario);
+    margin: 1.5em 0 1.5em 0;
+
+}
+
+.listaLink a:hover{
+    color: var(--botaoAzul);
+    transition: 500ms;
+}
